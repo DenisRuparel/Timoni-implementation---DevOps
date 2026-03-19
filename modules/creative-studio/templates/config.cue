@@ -72,23 +72,12 @@ import (
 	}
 
 	message!: string
-
-	secrets: {
-		CLOUDINARY_KEY:    string
-		CLOUDINARY_SECRET: string
-		CLOUDINARY_NAME:   string
-		CLOUDINARY_URL:    string
-	}
 }
 
 #Instance: {
 	config: #Config
 
 	objects: {
-
-		secret: #Secret & {
-			#config: config
-		}
 
 		deployment: #Deployment & {
 			#config: config

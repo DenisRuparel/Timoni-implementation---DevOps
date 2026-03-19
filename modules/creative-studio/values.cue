@@ -65,12 +65,5 @@ values: {
 		class:   "local-path"
 	}
 
-	secrets: {
-		CLOUDINARY_KEY:    "245894724521338"
-		CLOUDINARY_SECRET: "Fk1Zd7tl28uRnz76KwAS8LVlfno"
-		CLOUDINARY_NAME:   "dztttq7sx"
-		CLOUDINARY_URL:    "cloudinary://245894724521338:Fk1Zd7tl28uRnz76KwAS8LVlfno@dztttq7sx"
-	}
-
 	message: "creative studio running (prod)"
 }

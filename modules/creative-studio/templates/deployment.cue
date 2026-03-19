@@ -61,7 +61,7 @@ import (
 						envFrom: [
 							{
 								secretRef: {
-									name: #config.metadata.name + "-secrets"
+									name: #config.metadata.name
 								}
 							},
 						]

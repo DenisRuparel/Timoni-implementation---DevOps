@@ -59,7 +59,6 @@ timoni: {
 
 			image: _
 			message: _
-			secrets: _
 		}
 	}
 
