@@ -61,7 +61,7 @@ jobs:
 
       - name: Generate manifests
         run: |
-          timoni build creative-studio ./modules/creative-studio \
+          timoni -n creative-studio-prod build creative-studio ./modules/creative-studio \
             --values modules/creative-studio/values.cue \
             > deploy/manifests/prod/all.yaml
 
