@@ -8,7 +8,7 @@ values: {
 
 	image: {
 		repository: "demo.goharbor.io/creative-studio/creative-studio"
-		digest:     "sha256:f1ff4dca185762db6b5f77c5c2ef847eee2b1bb03ff8bd9bc084cf6e8079ac9b"
+        digest: "sha256:f7f2f436ac4397e0f9b5a1712602b071d5aec892679afde9fc9361af1b75287c"
 		tag: ""
 	}
 
