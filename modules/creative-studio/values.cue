@@ -4,6 +4,11 @@ package main
 
 values: {
 
+	metadata: {
+		name:      "creative-studio"
+		namespace: "creative-studio-prod"
+	}
+
 	app: "creative-studio"
 
 	image: {
