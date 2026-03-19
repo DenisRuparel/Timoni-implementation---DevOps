@@ -4,6 +4,9 @@ on:
   repository_dispatch:
     types: [update-image]
 
+permissions:
+  contents: write
+
 jobs:
   update-and-deploy:
     runs-on: self-hosted
