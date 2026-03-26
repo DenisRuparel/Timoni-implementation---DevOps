@@ -23,7 +23,7 @@ spec:
       - envFrom:
         - secretRef:
             name: creative-studio-secrets
-        image: demo.goharbor.io/creative-studio/creative-studio@sha256:edd6f736eec4d76af23214bbb7faaa7aaf3c57f8893f3dca1a97aab31c234161
+        image: demo.goharbor.io/creative-studio/creative-studio@sha256:171f3774c7bb5ef1c01adb218b757fd7ff932d98f45d75a272c532eb5bcc87ed
         name: creative-studio-beta
         ports:
         - containerPort: 5000
